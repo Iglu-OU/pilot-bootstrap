@@ -24,8 +24,10 @@
     pointer-events: none;
 }
 .btn svg {
+    display: inline-block;
     height: 1.5em;
     vertical-align: top;
+    fill: #fff;
 }
 .btn--block {
     display: block;

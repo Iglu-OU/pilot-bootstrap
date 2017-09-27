@@ -1,9 +1,9 @@
 /*
-    <nav class="navigation-tabs">
+    <nav class="navigation-tabs navigation-tabs--{{modifier}}">
         <ul>
             <li>
                 <a href="#">
-                    <svg></svg>
+                    <svg>...</svg>
                     <span>Home</span>
                 </a>
             </li>
