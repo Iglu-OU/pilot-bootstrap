@@ -4,6 +4,9 @@
 @import "_layout.css";
 @import "_app.css";
 
+/* Navigation */
+@import "navigation/_scrollable.css";
+
 /* Components */
 
 @import "_forms.css";
