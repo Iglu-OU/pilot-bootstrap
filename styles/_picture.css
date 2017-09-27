@@ -1,11 +1,19 @@
-.cover {
+/*
+    <picture class="picture picture--{{modifier}}">
+        <source>
+        <img>
+    </picture>
+    note: can be something else than picture element
+*/
+.picture {
     position: relative;
     display: block;
     padding-bottom: 50%;
     overflow: hidden;
     background: rgba(33,37,41,.2);
 }
-.cover img {
+.picture source,
+.picture img {
     position: absolute;
     top: 0;
     left: 0;
@@ -14,22 +22,24 @@
     outline: none;
 }
 
-.cover--portrait {
+/* Modifiers*/
+
+.picture--portrait {
     padding-bottom: 150%;
 }
-.cover--landscape {
+.picture--landscape {
     padding-bottom: 66.6665%;
 }
-.cover--wide {
+.picture--wide {
     padding-bottom: 50%;
 }
-.cover--superwide {
+.picture--superwide {
     padding-bottom: 25%;
 }
-.cover--square {
+.picture--square {
     padding-bottom: 100%;
 }
-.cover--circle {
+.picture--circle {
     padding-bottom: 100%;
     border-radius: 50%;
 }
