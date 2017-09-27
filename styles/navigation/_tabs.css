@@ -1,0 +1,55 @@
+.navigation-tabs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    background-color: var(--color-secondary);
+    color: #fff;
+    line-height: 1;
+    z-index: 1000;
+    white-space: nowrap;
+}
+.navigation-tabs ul {
+    display: flex;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation-tabs li {
+    flex: 1 1;
+}
+.navigation-tabs a {
+    display: block;
+    padding: 1em 1rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.navigation-tabs svg,
+.navigation-tabs strong {
+    display: block;
+    margin: auto;
+    width: 2em;
+    height: 2em;
+    fill: #fff;
+}
+.navigation-tabs span {
+    display: block;
+    margin-top: 0.5em;
+}
+.navigation-tabs + * {
+    margin-top: 5.5em !important;
+}
+
+/* Modifiers */
+
+.navigation-tabs--bottom {
+    top: auto;
+    bottom: 0;
+}
+.navigation-tabs--bottom + * {
+    margin-top: 0 !important;
+}

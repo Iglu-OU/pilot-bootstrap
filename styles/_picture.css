@@ -5,6 +5,7 @@
     </picture>
     note: can be something else than picture element
 */
+
 .picture {
     position: relative;
     display: block;
@@ -22,7 +23,7 @@
     outline: none;
 }
 
-/* Modifiers*/
+/* Modifiers */
 
 .picture--portrait {
     padding-bottom: 150%;
