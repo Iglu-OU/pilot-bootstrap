@@ -1,0 +1,100 @@
+.app {
+  position: relative;
+  overflow: hidden;
+  min-height: 100%;
+}
+.app__topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--color-secondary);
+  color: #fff;
+  z-index: 1000;
+  white-space: nowrap;
+}
+.app__topbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.app__topbar a {
+  color: #fff;
+}
+.app__topbar + * {
+  margin-top: 3rem;
+}
+.app__menu {
+  display: flex;
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+}
+.app__topbar a {
+  display: block;
+  padding: 0.75rem 1em;
+  background-color: var(--color-secondary);
+  color: #fff;
+  text-decoration: none;
+}
+.app__topbar a:focus,
+.app__topbar a:hover {
+  background-color: var(--color-info-light);
+  color: #fff;
+}
+.app__topbar a:active,
+.app__topbar a.is-active {
+  background-color: var(--color-secondary-darker);
+  color: #fff;
+}
+.app__footer {
+  background: var(--color-secondary);
+  color: #fff;
+}
+.app__shortcuts {
+  display: flex;
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+}
+.app__backdrop {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: rgba(0,0,0,.75);
+  z-index: 1000;
+  pointer-events: none;
+}
+.app__popover {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 768px;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 24px rgba(0,0,0,.75);
+  transform: translate(-50%,-50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+.app__backdrop.is-visible,
+.app__popover.is-visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Schemas */
+
+.app--red .app__topbar,
+.app--red .app__footer {
+  background: var(--color-danger);
+}
+
+.app--green .app__topbar,
+.app--green .app__footer {
+  background: var(--color-success);
+}

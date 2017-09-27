@@ -1,0 +1,43 @@
+.section {
+    position: relative;
+    overflow: hidden;
+    margin: var(--space-y) 0 0;
+}
+.section__header {
+    position: relative;
+    overflow: hidden;
+    padding: 0 var(--space-x);
+}
+.section__header:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background: rgba(33,37,41,.2);
+}
+.section__heading {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section__block {
+    position: relative;
+    overflow: hidden;
+    padding: 0 var(--space-x) var(--space-y);
+}
+.section__block:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background: rgba(33,37,41,.2);
+}
+.section__block:last-child:after {
+    display: none;
+}

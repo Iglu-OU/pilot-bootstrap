@@ -1,0 +1,37 @@
+.wrapper {
+    position: relative;
+    max-width: 64rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.layout {
+    position: relative;
+    overflow: hidden;
+}
+.layout__main,
+.layout__aside {
+    position: relative;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+@media(min-width: 48em) {
+    .wrapper {
+        width: 48em;
+    }
+    .layout {
+        display: flex;
+        justify-content: space-around;
+    }
+    .layout__main {
+        flex: 1 1 62.5%;
+    }
+    .layout__aside {
+        flex: 0 0 37.5%;
+    }
+}
+@media(min-width: 1024px) {
+    .wrapper {
+        width: 64em;
+    }
+}
+/* Custom layouts */

@@ -1,0 +1,7 @@
+.invert {
+  background: var(--color-info-darker);
+  color: #fff;
+}
+.invert a {
+  color: #fff;
+}
