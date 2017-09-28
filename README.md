@@ -1,17 +1,17 @@
 # pilot-bootstrap
-Pilot is modern HTML and CSS framework for prototyping responsive, mobile first projects on the web
+Pilot is modern HTML and CSS framework for prototyping responsive, mobile first projects on the web  
 
-## Sizes  
-* For consistency we are using 8pt grid system
-* Root font size is browser default of 16px  
+## Base  
+* For consistency we are using 8pt grid system  
+* Root font size is browser default of 16px (you can scale the site by modifying root font size)  
 * Base font size is 1x (16px) based on root size and it's line height is 1.5x (24px) based on base font size  
 * Base SVG width and height must equal to base font line height (24px)  
 
 ## Adding/Creating new icons (SVG)  
 1) Text and stroke elements must be outlined  
 2) Use rect over line element  
-3) Keep icons consistent    
-4) Artboard (viewbox) must be 24x24px.
+3) Keep icons consistent  
+4) Artboard (viewbox) must be 24x24px.  
 5) Clean up generated SVG code (remove unneeded styles, classes, id's etc.). [svgo](https://www.npmjs.com/package/svgo)  
 6) Add prefixed classes for CSS.  
 7) Sprite SVG's with unique ID's  

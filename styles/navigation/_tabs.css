@@ -38,30 +38,8 @@
     flex: 1 1;
     scroll-snap-align: start;
 }
-.navigation-tabs a {
-    display: block;
-    padding: 1em 1rem;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-}
-.navigation-tabs a.active {
-    background-color: var(--color-info-darker);
-}
-.navigation-tabs svg,
-.navigation-tabs strong {
-    display: block;
-    margin: auto;
-    width: 2em;
-    height: 2em;
-    fill: #fff;
-}
-.navigation-tabs span {
-    display: block;
-    margin-top: 0.5em;
-}
 .navigation-tabs + * {
-    margin-top: 5.5em !important;
+    margin-top: 5em !important;
 }
 
 /* Modifiers */
