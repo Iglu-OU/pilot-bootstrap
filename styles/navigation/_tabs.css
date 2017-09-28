@@ -11,6 +11,10 @@
     </nav>
 */
 .navigation-tabs {
+    position: relative;
+    height: 5em;
+}
+.navigation-tabs ul {
     position: fixed;
     top: 0;
     left: 0;
@@ -38,16 +42,10 @@
     flex: 1 1;
     scroll-snap-align: start;
 }
-.navigation-tabs + * {
-    margin-top: 5em !important;
-}
 
 /* Modifiers */
 
 .navigation-tabs--bottom {
     top: auto;
     bottom: 0;
-}
-.navigation-tabs--bottom + * {
-    margin-top: 0 !important;
 }
