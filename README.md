@@ -1,11 +1,9 @@
 # pilot-bootstrap
 Pilot is modern HTML and CSS framework for prototyping responsive, mobile first projects on the web
 
-## Before you start  
-there's few important rules you must follow to avoid any frustration down the road.  
-
+## UI  
 ### Design as a whole is greater than sum of it's parts  
-Do enforce this ideology we have couple of rules that is applied on everywhene in UI.  
+There are few rules that gets applied across the whole UI.  
 * [Material: Metrics & keylines](https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-ratio-keylines)
 * [8pt Material Design GUI Templates](https://medium.com/@_bklmn/8pt-gui-templates-ed8798badab3)  
 * [Intro to The 8-Point Grid System](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632)  
