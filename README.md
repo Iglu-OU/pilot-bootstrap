@@ -1,8 +1,17 @@
 # pilot-bootstrap
 Pilot is modern HTML and CSS framework for prototyping responsive, mobile first projects on the web
 
+## Important  
+Before you start using this bootstrap, there's few important rules you must follow to avoid any frustration down the road.  
+
+### 8pt grid system  
+* [Material: Metrics & keylines](https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-ratio-keylines)
+* [8pt Material Design GUI Templates](https://medium.com/@_bklmn/8pt-gui-templates-ed8798badab3)  
+* [Intro to The 8-Point Grid System](https://builttoadapt.io/intro-to-the-8-point-grid-system-d2573cde8632)  
+* [8-Point Grid: Borders And Layouts](https://builttoadapt.io/8-point-grid-borders-and-layouts-e91eb97f5091)  
+
+
 ## General  
-1) Using 4pt grid system to enforce visual consistency.  
 2) Nothing is allowed to overflow outside it's component (components have overflow: hidden applied).  
 3) The quality of images should not be compromised by stretching them beyond 100%.  
 4) Images have certain ratio's dictated by the parent components (avoiding extra rendering and content shift while images are being loaded).  

@@ -69,13 +69,28 @@
             </a>
         </div>
         <div class="card__block">
-            <h1 class="h2">Lorem ipsum dolor sit.</h1>
+            <h1 class="h2">
+                <svg><use xlink:href="#favourite"></use></svg>
+                Lorem ipsum dolor sit.
+            </h1>
             <p class="muted small">Posted by <a href="#">Steve Jobs</a> on 29 Apr 2017</p>
             <p>From the outside looking in, Switzerland can seem like a perfect country. After all, it’s the land of fondue, delicious chocolate, and getting tipsy on mountaintops. What’s not to like?</p>
             <p class="small muted tags"><a href="#">#hashtags</a> <a href="#">#events</a> <a href="#">#switzerland</a></p>
         </div>
         <div class="card__block muted small">
-            <p class="separated"><span>1 like</span> <span>2 comments</span> <span>3 views</span></p>
+            <p class="separated">
+                <a href="#">
+                    <svg><use xlink:href="#favourite"></use></svg>
+                    <span>1 like</span>
+                </a>
+                <a href="#">
+                    <svg><use xlink:href="#comments"></use></svg>
+                    <span>2 comments</span>
+                </a>
+                <a href="#">
+                    <svg><use xlink:href="#visibility"></use></svg>
+                    <span>3 views</span></p>
+                </a>
         </div>
     </section>
     <div class="card">
@@ -83,13 +98,19 @@
             <ul class="list--unstyled">
                 <li>
                     <button class="btn btn--block">
-                        <svg><use xlink:href="#portrait"></use></svg>
+                        <svg><use xlink:href="#favourite"></use></svg>
                         Hello
                     </button>
                 </li>
                 <li>
                     <button class="btn btn--block">
-                        <svg><use xlink:href="#portrait"></use></svg>
+                        <svg><use xlink:href="#visibility"></use></svg>
+                        Hello
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn--block">
+                        <svg><use xlink:href="#comments"></use></svg>
                         Hello
                     </button>
                 </li>
@@ -154,6 +175,18 @@
         <symbol id="album" viewBox="0 0 24 24">
             <path d="M0 0h24v24H0z" fill="none"/>
             <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+        </symbol>
+        <symbol id="favourite" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/>
+        </symbol>
+        <symbol id="visibility" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+        </symbol>
+        <symbol id="comments" viewBox="0 0 24 24">
+            <path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
         </symbol>
     </svg>
 </body>
