@@ -8,6 +8,7 @@
     border: 0;
     background: var(--color-primary);
     color: #fff;
+    fill: #fff;
     text-align: left;
     text-decoration: none;
     vertical-align: middle;
@@ -27,7 +28,6 @@
 }
 .btn svg {
     float: left;
-    fill: #fff;
 }
 .btn svg + span {
     margin-left: 0.5em;
@@ -44,6 +44,7 @@
 }
 .btn--primary.btn--outline {
     color: var(--color-primary);
+    fill: var(--color-primary);
     background-color: transparent;
 }
 .btn--secondary {
@@ -54,6 +55,7 @@
 }
 .btn--secondary.btn--outline {
     color: var(--color-secondary);
+    fill: var(--color-secondary);
     background-color: transparent;
 }
 .btn--info {
@@ -64,6 +66,7 @@
 }
 .btn--info.btn--outline {
     color: var(--color-info);
+    fill: var(--color-info);
     background-color: transparent;
 }
 .btn--success {
@@ -74,6 +77,7 @@
 }
 .btn--success.btn--outline {
     color: var(--color-success);
+    fill: var(--color-success);
     background-color: transparent;
 }
 .btn--warning {
@@ -84,6 +88,7 @@
 }
 .btn--warning.btn--outline {
     color: var(--color-warning);
+    fill: var(--color-warning);
     background-color: transparent;
 }
 .btn--danger {
@@ -94,5 +99,6 @@
 }
 .btn--danger.btn--outline {
     color: var(--color-danger);
+    fill: var(--color-danger);
     background-color: transparent;
 }
