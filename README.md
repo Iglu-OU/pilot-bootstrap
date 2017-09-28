@@ -1,8 +1,23 @@
 # pilot-bootstrap
 Pilot is modern HTML and CSS framework for prototyping responsive, mobile first projects on the web
 
+## Sizes  
+* For consistency we are using 8pt grid system
+* Root font size is browser default of 16px  
+* Base font size is 1x (16px) based on root size and it's line height is 1.5x (24px) based on base font size  
+* Base SVG width and height must equal to base font line height (24px)  
+
+## Adding/Creating new icons (SVG)  
+1) Text and stroke elements must be outlined  
+2) Use rect over line element  
+3) Keep icons consistent    
+4) Artboard (viewbox) must be 24x24px.
+5) Clean up generated SVG code (remove unneeded styles, classes, id's etc.). [svgo](https://www.npmjs.com/package/svgo)  
+6) Add prefixed classes for CSS.  
+7) Sprite SVG's with unique ID's  
+
 ## UI  
-### Design as a whole is greater than sum of it's parts  
+### Design as a whole is greater than sum of its parts  
 There are few rules that gets applied across the whole UI.  
 * [Material: Metrics & keylines](https://material.io/guidelines/layout/metrics-keylines.html#metrics-keylines-ratio-keylines)
 * [8pt Material Design GUI Templates](https://medium.com/@_bklmn/8pt-gui-templates-ed8798badab3)  
@@ -31,11 +46,3 @@ Only way you should modify components are:
 2) Helper classes  
 3) Component specific modifier classes  
 
-## Icons (SVG)  
-1) Text elements must be outlined  
-2) Use rect over line element  
-3) Keep icons consistent    
-4) Artboard (viewbox) height must follow power of 8 rule and should match with the rest of icons (ala ...x24px).
-5) Clean up generated SVG code (remove styles, classes, id's etc. that isn't needed otherwise it might affect the rest of the site or quality).  
-6) Add prefixed classes for CSS.  
-7) Sprite SVG's with unique ID's  
