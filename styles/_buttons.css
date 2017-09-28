@@ -29,6 +29,9 @@
 .btn svg {
     float: left;
 }
+.btn span + svg {
+    float: right;
+}
 .btn svg + span {
     margin-left: 0.5em;
 }
