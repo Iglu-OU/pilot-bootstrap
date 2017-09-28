@@ -20,20 +20,20 @@ Pilot is modern HTML and CSS framework for prototyping responsive, mobile first 
 * Image sizes based on 8pt grid system (only sizes you will need based on width: 512px, 1024px, 2048px)  
 * Image ratios based on 8pt grid system (only ratios you will need: 1:1, 2:1, 9:6)  
 * File types: inlcude webp, optimize png/jpg files  
-* Use picture element to include image with correct size  
+* Use picture element to include image with correct sizes  
 * picture with picture class has modifiers that can be used to add image placeholder to avoid unnecessary content shiftment.  
 
 ### Example  
 `
-<picture class="picture">
-    <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
-    <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
-    <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
-    <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
-    <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
-    <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
-    <img src="assets/cover_1024.jpg" alt="cover">
-</picture>
+<picture class="picture">  
+    <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">  
+    <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">  
+    <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">  
+    <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">  
+    <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">  
+    <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">  
+    <img src="assets/cover_1024.jpg" alt="cover">  
+</picture>  
 `
 
 
