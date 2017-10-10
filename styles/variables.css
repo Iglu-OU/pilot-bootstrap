@@ -32,4 +32,21 @@
 
     --space-x: 1rem;
     --space-y: 1em;
+
+    --primary-color-1: var(--oc-indigo-1);
+    --primary-color-2: var(--oc-indigo-2);
+    --primary-color-3: var(--oc-indigo-3);
+    --primary-color-4: var(--oc-indigo-4);
+    --primary-color-5: var(--oc-indigo-5);
+    --primary-color-6: var(--oc-indigo-6);
+    --primary-color-7: var(--oc-indigo-7);
+    --primary-color-8: var(--oc-indigo-8);
+    --primary-color-9: var(--oc-indigo-9);
+
+    --invertBg: var(--primary-color-9);
+    --invertColor: #fff;
+
+    --navigationBgColor: var(--primary-color-8);
+    --navigationBgColorHover: var(--primary-color-7);
+    --navigationBgColorActive: var(--primary-color-9);
 }
