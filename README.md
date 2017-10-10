@@ -6,6 +6,8 @@ Pilot is modern HTML and CSS framework for prototyping responsive, mobile first 
 * Root font size is browser default of 16px (you can scale the site by modifying root font size)  
 * Base font size is 1x (16px) based on root size and it's line height is 1.5x (24px) based on base font size  
 * Base SVG width and height must equal to base font line height (24px)  
+* For vertical spacing we only use top margin that is based on it's font size (1em)
+* For horisontal spacing we are using root font size (1rem) or it's content components specific font size (1em)  
 
 ## Adding/Creating new icons (SVG)  
 1) Text and stroke elements must be outlined  
@@ -24,7 +26,7 @@ Pilot is modern HTML and CSS framework for prototyping responsive, mobile first 
 * picture with picture class has modifiers that can be used to add image placeholder to avoid unnecessary content shiftment.  
 
 ### Example  
-`
+```
 <picture class="picture">  
     <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">  
     <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">  
@@ -34,7 +36,7 @@ Pilot is modern HTML and CSS framework for prototyping responsive, mobile first 
     <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">  
     <img src="assets/cover_1024.jpg" alt="cover">  
 </picture>  
-`
+```
 
 
 ## UI   
