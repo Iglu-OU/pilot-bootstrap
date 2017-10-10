@@ -8,53 +8,32 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <nav class="navigation-tabs small">
-        <ul>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#menu"></use></svg>
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#visibility"></use></svg>
-                    <span>Blog</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#favourite"></use></svg>
-                    <span>Events</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#portrait"></use></svg>
-                    <span>Gallery</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#portrait"></use></svg>
-                    <span>People</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#portrait"></use></svg>
-                    <span>Manuals</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="tile tile--block">
-                    <svg><use xlink:href="#portrait"></use></svg>
-                    <span>Shortcuts</span>
-                </a>
-            </li>
-        </ul>
+    <nav class="navigation-scrollable">
+        <div class="navigation-scrollable__inner">
+            <ul>
+                <li><a href="#"><span>Pilot</span></a></li>
+                <li><a href="#"><span>Documentation</span></a></li>
+                <li><a href="#"><span>Examples</span></a></li>
+                <li><a href="#"><span>Github</span></a></li>
+            </ul>
+        </div>
     </nav>
-    <section class="card mt-0">
+    <section class="jumbotron-pilot invert">
+        <div class="jumbotron-pilot__content text--center">
+            <h1>Pilot Bootstrap</h1>
+            <p>
+                Quickly prototype your ideas or build your entire app with our
+                open source toolkit.
+            </p>
+            <p>
+                <a class="btn btn--primary" href="#">
+                    <svg><use xlink:href="#download"></use></svg>
+                    <span>Download</span>
+                </a>
+            </p>
+        </div>
+    </section>
+    <section class="card">
         <div class="card__cover">
             <a href="#" routerLink="/posts/123">
                 <picture class="picture">
@@ -171,6 +150,10 @@
         <symbol id="menu" viewBox="0 0 24 24">
             <path d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+        </symbol>
+        <symbol id="download" viewBox="0 0 24 24">
+            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
         </symbol>
     </svg>
 </body>

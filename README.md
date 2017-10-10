@@ -9,6 +9,9 @@ Pilot is modern HTML and CSS framework for prototyping responsive, mobile first 
 * For vertical spacing we only use top margin that is based on it's font size (1em)
 * For horisontal spacing we are using root font size (1rem) or it's content components specific font size (1em)  
 
+## Colors  
+* you can invert colors with invert class  
+
 ## Adding/Creating new icons (SVG)  
 1) Text and stroke elements must be outlined  
 2) Use rect over line element  

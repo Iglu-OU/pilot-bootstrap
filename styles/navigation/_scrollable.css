@@ -11,48 +11,45 @@
         </ul>
     </nav>
 */
-
-.navigation-scrollable + * {
-    margin-top: 4em !important;
-}
 .navigation-scrollable {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: var(--color-secondary);
-    color: #fff;
-    z-index: 1000;
-    white-space: nowrap;
-  }
-  .navigation-scrollable {
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .navigation-scrollable a {
-    color: #fff;
-  }
-  .navigation-scrollable ul {
-    display: flex;
-    margin: 0;
-    padding: 0 1rem;
-    list-style: none;
-  }
-  .navigation-scrollable a {
-    display: block;
-    padding: 0.75rem 1em;
-    background-color: var(--color-secondary);
-    color: #fff;
-    text-decoration: none;
-  }
-  .navigation-scrollable a:focus,
-  .navigation-scrollable a:hover {
-    background-color: var(--color-info-light);
-    color: #fff;
-  }
-  .navigation-scrollable a:active,
-  .navigation-scrollable a.is-active {
-    background-color: var(--color-secondary-darker);
-    color: #fff;
-  }
+  height: 3em;
+}
+.navigation-scrollable__inner {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: var(--color-secondary);
+  color: #fff;
+  z-index: 1000;
+  white-space: nowrap;
+}
+.navigation-scrollable a {
+  color: #fff;
+}
+.navigation-scrollable ul {
+  display: flex;
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+}
+.navigation-scrollable a {
+  display: block;
+  padding: 0.75em 1em;
+  background-color: var(--color-secondary);
+  color: #fff;
+  text-decoration: none;
+}
+.navigation-scrollable a:focus,
+.navigation-scrollable a:hover {
+  background-color: var(--color-info-light);
+  color: #fff;
+}
+.navigation-scrollable a:active,
+.navigation-scrollable a.is-active {
+  background-color: var(--color-secondary-darker);
+  color: #fff;
+}
