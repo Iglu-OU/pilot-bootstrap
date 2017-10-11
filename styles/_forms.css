@@ -1,3 +1,15 @@
 label {
   display: block;
 }
+select,
+input {
+  border-radius: 0;
+  border: 0;
+  outline: none;
+  background: #fff;
+  padding: 0.5em;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

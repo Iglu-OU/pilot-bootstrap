@@ -45,29 +45,29 @@
   text-decoration: none;
 }
 
-.list--unstyled {
+.list-unstyled {
   padding: 0;
   list-style: none;
 }
-.list--inline {
+.list-inline {
   display: flex;
 }
 
-.text--center {
+.text-center {
   text-align: center;
 }
-.text--right {
+.text-right {
   text-align: right;
 }
-.text--info {
+.text-info {
   color: var(--color-info);
 }
-.text--success {
+.text-success {
   color: var(--color-success);
 }
-.text--warning {
+.text-warning {
   color: var(--color-warning);
 }
-.text--danger {
+.text-danger {
   color: var(--color-danger);
 }
