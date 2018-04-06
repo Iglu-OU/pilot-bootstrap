@@ -1,7 +1,7 @@
 .btn {
     position: relative;
     display: inline-block;
-    padding: 0.5em 0.75em;
+    padding: 0.5em;
     overflow: hidden;
     outline: 0;
     border-radius: 0;
@@ -9,7 +9,7 @@
     background: var(--color-primary);
     color: #fff;
     fill: #fff;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     vertical-align: top;
     white-space: nowrap;

@@ -1,8 +1,8 @@
 .msg {
     position: relative;
     overflow: hidden;
-    margin: var(--space-y) 0 0;
-    padding: 0 var(--space-x) var(--space-y);
+    margin: var(--space-rem) 0;
+    padding: 0 var(--space-rem);
 }
 .msg:before {
     content: "";

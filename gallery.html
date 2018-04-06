@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pilot Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .layout__main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation-scrollable">
+        <div class="navigation-scrollable__inner">
+            <ul style="margin:auto;min-width: 1024px">
+                <li>
+                    <a href="index.html">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html">
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Events</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html" class="is-active">
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="people.html">
+                        <span>People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="library.html">
+                        <span>Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Manuals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Shortcuts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="layout">
+            <div class="layout__main">
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherton Voorel 2017 sügis</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Jõulu pühasöömaaeg Põhjaka mõisas</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 Juuni 2017</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Togetherthon 2017/II teemad ja tiimid</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November 2016</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="app__footer text-center small">
+        <p>Iglu OY</p>
+    </div>
+</body>
+
+</html>

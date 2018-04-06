@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pilot Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        .layout__main {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1em;
+            margin-top: 1rem;
+        }
+
+        .card {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navigation-scrollable">
+        <div class="navigation-scrollable__inner">
+            <ul style="margin:auto;min-width: 1024px">
+                <li>
+                    <a href="index.html">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html">
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Events</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="people.html" class="is-active">
+                        <span>People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="library.html">
+                        <span>Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Manuals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Shortcuts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="layout">
+            <div class="layout__main">
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageM21.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Joel Fowler</h4>
+                                    <p class="muted small">
+                                        <span>Industrial Designer</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageF41.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Rebecca James</h4>
+                                    <p class="muted small">
+                                        <span>Accountant</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageM13.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Edward Ross</h4>
+                                    <p class="muted small">
+                                        <span>Back End Developer</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageM40.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Liam Watkins</h4>
+                                    <p class="muted small">
+                                        <span>Marketing Manager</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageM4.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Benjamin Gilbert</h4>
+                                    <p class="muted small">
+                                        <span>Print Designer</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageF45.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Fiona Rogers</h4>
+                                    <p class="muted small">
+                                        <span>Illustrator</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageF38.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Laura Rice</h4>
+                                    <p class="muted small">
+                                        <span>Copywriter</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageF14.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Michelle Brooks</h4>
+                                    <p class="muted small">
+                                        <span>Photographer</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageF21.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Katie Wilson</h4>
+                                    <p class="muted small">
+                                        <span>Librarian</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="card mt-0">
+                    <div class="card__cover" style="padding: 1rem 1rem 0">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture picture--circle">
+                                <img src="http://www.designskilz.com/random-users/images/imageM16.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <div class="media">
+                            <div class="media__main">
+                                <h1 class="h6">Bradley Peterson</h4>
+                                    <p class="muted small">
+                                        <span>Security Specialist</span>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="layout__aside">
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Birthdays</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Steven Heidel</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November</span>
+                                        </li>
+                                        <li>
+                                            <span class="text-danger">Tomorrow</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Eva Salomon</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>18 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Sarah Goldstein</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>21 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Newcomers</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Joe Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>10 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/40.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Jane Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>1 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Jane Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>21 September</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="app__footer text-center small">
+        <p>Iglu OY</p>
+    </div>
+</body>
+
+</html>

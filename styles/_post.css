@@ -12,21 +12,21 @@
     right: 0;
     bottom: 0;
     display: block;
-    border: 1px solid var(--color-gray-light);
+    border: 1px solid var(--oc-gray-3);
     pointer-events: none;
 }
 .post__block {
     position: relative;
     max-width: 640px;
     margin: 0 auto;
-    padding: 0 var(--space-x) var(--space-y);
+    padding: 0 var(--space-rem) var(--space-y);
 }
 @media(min-width: 768px) {
     .post__block {
         position: relative;
         max-width: 640px;
         margin: 0 auto;
-        padding: 0 var(--space-x) var(--space-y);
+        padding: 0 var(--space-rem) var(--space-y);
     }
 }
 .post__block:after {
@@ -37,7 +37,7 @@
     right: 1rem;
     display: block;
     height: 1px;
-    background: var(--color-gray-light);
+    background: var(--oc-gray-3);
 }
 .post__block:last-child:after {
     display: none;

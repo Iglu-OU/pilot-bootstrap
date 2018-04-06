@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{ 
+            margin: 0;
+            background: #ddd;
+            font-family: sans-serif;
+        }
+        .mapper {
+            display: flex;
+        }
+        .mapper > div {
+            position: relative;
+            flex: 0 0 320px;
+            width: 320px;
+            height: 480px;
+            margin: 10px;
+            background: #fff;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+        .nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 3rem;
+            padding: 0.5rem;
+            color: #fff;
+            line-height: 2rem;
+        }
+        .h2 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="mapper">
+        <div>
+            <div class="nav">
+                Back
+            </div>
+            <img style="width: 100%" src="assets/cover_512.jpg" alt="">
+            <div class="block" style="padding: 0 1rem">
+                <h1 class="h2">Iglu Suvepaevad</h1>
+                <p><strong>When </strong><br>21-22 August</p>
+                <p><strong>Where </strong><br>Roosikannu puhkekeskus</p>
+                <p><strong>About</strong><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ratione necessitatibus. Sunt quos odio dolores expedita illo molestias ab provident vero ex hic. Itaque sint explicabo quae ducimus soluta exercitationem.</p>
+                <p><strong>Who's going</strong><br>People circles</p>
+                <p><strong>Are you</strong><br>[Going] [Not Going] [May be]</p>
+                <p><strong>Comments</strong><br>[comment block]</p>
+            </div>
+        </div>
+        <div>
+            <div class="nav" style="color: #000">
+                Back
+            </div>
+            <div class="block" style="padding: 0 1rem">
+                <h1>Are you</h1>
+                <ul>
+                    <li>Going with the car</li>
+                    <li>Offering a lift</li>
+                    <li>Need a ride</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

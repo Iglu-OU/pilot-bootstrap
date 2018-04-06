@@ -1,9 +1,25 @@
 :root {
+    --base-size: 16px;
+    --base-size-sm: 14px;
+    --base-size-lg: 18px;
 
-    --color-gray-dark: var(--oc-gray-9);
-    --color-gray: var(--oc-gray-6);
-    --color-gray-light: var(--oc-gray-3);
-    --color-gray-lightest: var(--oc-gray-2);
+    --base-line-height: 1.5;
+    --svg-size: 1.5em;
+
+    --space-rem: 1rem;
+    --space-em: 1em;
+
+    --base-bg: var(--oc-gray-2);
+    --base-color: var(--oc-gray-9);
+
+    --type-spacing: var(--space-em) 0 var(--space-rem);
+
+    --heading-1: 400 2em/1.2 var(--base-font-family);
+    --heading-2: 400 1.75em/1.3 var(--base-font-family);
+    --heading-3: 400 1.5em/1.35 var(--base-font-family);
+    --heading-4: 400 1.25em/1.4 var(--base-font-family);
+    --heading-5: 400 1em/1.5 var(--base-font-family);
+    --heading-6: 400 1em/1.5 var(--base-font-family);
 
     --color-info: var(--oc-blue-8);
     --color-info-darker: var(--oc-blue-9);
@@ -28,9 +44,8 @@
     --color-secondary: var(--color-info);
     --color-secondary-darker: var(--color-info-darker);
 
-    --base-size: 16px;
+    --small-size: 0.875em;
 
-    --space-x: 1rem;
     --space-y: 1em;
 
     --primary-color-1: var(--oc-indigo-1);

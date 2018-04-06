@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,51 @@
     <title>Pilot Bootstrap</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
     <nav class="navigation-scrollable">
         <div class="navigation-scrollable__inner">
             <ul>
-                <li><a href="index.html"><span>Pilot</span></a></li>
-                <li><a href="docs.html"><span>Documentation</span></a></li>
-                <li><a href="examples.html"><span>Examples</span></a></li>
-                <li><a href="#"><span>Github</span></a></li>
+                <li>
+                    <a href="index.html">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html">
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Events</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="people.html">
+                        <span>People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="library.html">
+                        <span>Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Manuals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Shortcuts</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -22,139 +60,59 @@
         <div class="jumbotron-pilot__content text-center">
             <h1 class="mt-0">Pilot Bootstrap</h1>
             <p>
-                Quickly prototype your ideas or build your entire app with our
-                open source toolkit.
+                Pilot is modern HTML and CSS framework for prototyping responsive projects on the web
             </p>
             <p>
                 <a class="btn btn--primary" href="#">
-                    <svg><use xlink:href="#download"></use></svg>
+                    <svg>
+                        <use xlink:href="#download"></use>
+                    </svg>
                     <span>Download</span>
                 </a>
             </p>
         </div>
     </section>
-    <section class="card">
-        <div class="card__cover">
-            <a href="#" routerLink="/posts/123">
-                <picture class="picture">
-                    <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
-                    <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
-                    <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
-                    <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
-                    <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
-                    <img src="assets/cover_1024.jpg" alt="cover">
-                </picture>
-            </a>
-        </div>
-        <div class="card__block">
-            <h1 class="h2">
-                <svg><use xlink:href="#favourite"></use></svg>
-                Lorem ipsum dolor sit.
-            </h1>
-            <p class="muted small">Posted by <a href="#">Steve Jobs</a> on 29 Apr 2017</p>
-            <p>From the outside looking in, Switzerland can seem like a perfect country. After all, it’s the land of fondue, delicious chocolate, and getting tipsy on mountaintops. What’s not to like?</p>
-            <p class="small muted tags"><a href="#">#hashtags</a> <a href="#">#events</a> <a href="#">#switzerland</a></p>
-        </div>
-        <div class="card__block muted small">
-            <p class="separated">
-                <a href="#">
-                    <svg><use xlink:href="#favourite"></use></svg>
-                    <span>1 like</span>
-                </a>
-                <a href="#">
-                    <svg><use xlink:href="#comments"></use></svg>
-                    <span>2 comments</span>
-                </a>
-                <a href="#">
-                    <svg><use xlink:href="#visibility"></use></svg>
-                    <span>3 views</span></p>
-                </a>
-        </div>
-    </section>
-    <section class="section">
-        <div class="section__header">
-            <h1 class="h4 section__heading">Upcoming Events</h1>
-        </div>
-        <div class="section__block">
-            <section class="media">
-                <div class="media__aside">
-                    <div class="picture picture--circle">
-                        <img src="https://randomuser.me/api/portraits/women/23.jpg" alt="">
-                    </div>
-                </div>
-                <div class="media__main">
-                    <h1 class="h6">Iglu Grill</h4>
-                    <p class="muted small separated">
-                        <span>Tomorrow</span>
-                        <span>Tallinn</span>
-                        <span class="text-success">Going</span>
-                    </p>
-                </div>
-            </section>
-            <section class="media">
-                <div class="media__aside">
-                    <div class="picture picture--circle">
-                        <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="">
-                    </div>
-                </div>
-                <div class="media__main">
-                    <h1 class="h6">MM valikmäng: Eesti vs Belgia</h4>
-                    <p class="muted small separated">
-                        <span>This Friday</span>
-                        <span>Tartu</span>
-                    </p>
-                </div>
-            </section>
-            <section class="media">
-                <div class="media__aside">
-                    <div class="picture picture--circle">
-                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="">
-                    </div>
-                </div>
-                <div class="media__main">
-                    <h1 class="h6">GeekOut</h4>
-                    <p class="muted small separated">
-                        <span>September 23th</span>
-                        <span>Stockholm</span>
-                    </p>
-                </div>
-            </section>
-        </div>
-    </section>
-    <svg xmlns="http://www.w3.org/2000/svg">
+
+    <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
         <symbol id="portrait" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 12.25c1.24 0 2.25-1.01 2.25-2.25S13.24 7.75 12 7.75 9.75 8.76 9.75 10s1.01 2.25 2.25 2.25zm4.5 4c0-1.5-3-2.25-4.5-2.25s-4.5.75-4.5 2.25V17h9v-.75zM19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 12.25c1.24 0 2.25-1.01 2.25-2.25S13.24 7.75 12 7.75 9.75 8.76 9.75 10s1.01 2.25 2.25 2.25zm4.5 4c0-1.5-3-2.25-4.5-2.25s-4.5.75-4.5 2.25V17h9v-.75zM19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14z"
+            />
         </symbol>
         <symbol id="album" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"
+            />
         </symbol>
         <symbol id="favourite" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z"
+            />
         </symbol>
         <symbol id="visibility" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+            />
         </symbol>
         <symbol id="comments" viewBox="0 0 24 24">
-            <path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
-            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M21.99 4c0-1.1-.89-2-1.99-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4-.01-18zM18 14H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+            />
+            <path d="M0 0h24v24H0z" fill="none" />
         </symbol>
         <symbol id="snooze" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm-3-9h3.63L9 15.2V17h6v-2h-3.63L15 10.8V9H9v2z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M7.88 3.39L6.6 1.86 2 5.71l1.29 1.53 4.59-3.85zM22 5.72l-4.6-3.86-1.29 1.53 4.6 3.86L22 5.72zM12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7zm-3-9h3.63L9 15.2V17h6v-2h-3.63L15 10.8V9H9v2z"
+            />
         </symbol>
         <symbol id="menu" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
         </symbol>
         <symbol id="download" viewBox="0 0 24 24">
-            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
-            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+            <path d="M0 0h24v24H0z" fill="none" />
         </symbol>
     </svg>
 </body>
+
 </html>

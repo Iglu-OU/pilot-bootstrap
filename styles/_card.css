@@ -1,7 +1,7 @@
 .card {
     position: relative;
     overflow: hidden;
-    margin: var(--space-y) 0 0;
+    margin: var(--space-rem) 0;
     background: #fff;
 }
 .card:before {
@@ -21,15 +21,15 @@
 }
 .card__block {
     position: relative;
-    padding: 0 var(--space-x) var(--space-y);
+    padding: 0 var(--space-em);
     overflow: hidden;
 }
 .card__block:after {
     content: "";
     position: absolute;
     bottom: 0;
-    left: var(--space-x);
-    right: var(--space-x);
+    left: var(--space-em);
+    right: var(--space-em);
     display: block;
     height: 1px;
     background: rgba(33,37,41,.2);

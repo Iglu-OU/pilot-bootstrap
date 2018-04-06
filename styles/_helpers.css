@@ -1,7 +1,7 @@
 /* Helpers */
 
 .small {
-  font-size: 0.875em; /*0.75*/
+  font-size: var(--small-size); /*0.75*/
 }
 .normal {
   font-size: var(--base-size);
@@ -11,7 +11,7 @@
 }
 
 .mt-0 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .mt-2 {
   margin-top: 2rem;
@@ -19,25 +19,27 @@
 
 .muted,
 .muted a {
-  color: var(--color-gray);
-  fill: var(--color-gray);
+  color: var(--oc-gray-6);
+  fill: var(--oc-gray-6);
 }
 
 .separated {
   display: flex;
+  padding: 0;
+  list-style: none;
   flex-wrap: wrap;
 }
-.separated span:after {
+.separated li:after {
   content: "";
   display: inline-block;
   width: 0.25em;
   height: 0.25em;
   background: #aaa;
   border-radius: 50%;
-  margin: 0 0.4em;
+  margin: 0 0.4em 0.14em;
   vertical-align: middle;
 }
-.separated span:last-child:after {
+.separated li:last-child:after {
   display: none;
 }
 

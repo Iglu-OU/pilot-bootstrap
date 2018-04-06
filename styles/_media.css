@@ -2,15 +2,52 @@
     position: relative;
     overflow: hidden;
     display: flex;
-    margin: var(--space-y) 0 0;
+    margin: var(--space-rem) 0;
 }
 .media__aside {
     flex: 0 0 3.5em;
-    padding: 0 calc(var(--space-x)/2) 0 0;
+    padding: 0 calc(var(--space-rem)/2) 0 0;
 }
 .media__main {
     flex: 1 1 50%;
 }
 .media__main > * {
     margin: 0;
+}
+
+/* extend -> date */
+
+.media__date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 3em;
+    height: 3em;
+    margin: 0 calc(var(--space-rem)/2) 0 0;
+    line-height: 1;
+}
+.media__date:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    border-radius: 50%;
+    border: 0.20em solid var(--oc-teal-2);
+}
+.media__date strong {
+    display: block;
+    font-size: var(--small-size);
+}
+.media__date span {
+    display: block;
+    font-size: 0.75em;
+    line-height: 1.25;
+}
+.media--inner .media__date:before {
+    border-color: var(--oc-red-2);
 }

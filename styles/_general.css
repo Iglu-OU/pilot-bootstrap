@@ -5,21 +5,32 @@ html, body {
     overflow-x: hidden;
 }
 html {
-    font-size: var(--base-size);
+    font-size: var(--base-size-sm);
+}
+@media(min-width: 768px) {
+    html {
+        font-size: var(--base-size);
+    }
+}
+@media(min-width: 1280px) {
+    html {
+        font-size: var(--base-size-lg);
+    }
 }
 body {
     margin: 0;
-    font: 300 1em/1.5 sans-serif;
-    background: var(--color-gray-lightest);
+    font: 300 1em/var(--base-line-height) sans-serif;
+    background: var(--base-bg);
+    color: var(--base-color);
 }
 h1,h2,h3,h4,h5,h6,ul,ol,p,table,label {
-    margin: var(--space-y) 0 0;
+    margin: var(--type-spacing);
 }
 ul ul,
 ul ol,
 ol ol,
 ol ul {
-    margin: calc(var(--space-y)/2) 0;
+    margin: calc(var(--space-em)/2) 0;
 }
 strong {
     font-weight: 500;
@@ -40,7 +51,10 @@ button {
 }
 svg {
     display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
+    width: var(--svg-size);
+    height: var(--svg-size);
     vertical-align: top;
+}
+a {
+    color: var(--oc-blue-8);
 }

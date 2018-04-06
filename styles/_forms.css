@@ -13,3 +13,18 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+.input {
+  position: relative;
+  display: inline-block;
+}
+.input:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  border: 1px solid rgba(33,37,41,.2);
+  pointer-events: none;
+}

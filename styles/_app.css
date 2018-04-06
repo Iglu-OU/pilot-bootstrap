@@ -48,6 +48,9 @@
   color: #fff;
 }
 .app__footer {
+  margin-top: 1rem;
+  padding: 0 var(--space-rem);
+  overflow: hidden;
   background: var(--color-secondary);
   color: #fff;
 }

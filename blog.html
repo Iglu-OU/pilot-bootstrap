@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pilot Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav class="navigation-scrollable">
+        <div class="navigation-scrollable__inner">
+            <ul style="margin:auto;min-width: 1024px">
+                <li>
+                    <a href="index.html" class="is-active">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="blog.html">
+                        <span>Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Events</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="gallery.html">
+                        <span>Gallery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="people.html">
+                        <span>People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="library.html">
+                        <span>Library</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Manuals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html">
+                        <span>Shortcuts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="layout">
+            <div class="layout__main">
+                <article class="card">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <h1 class="h2">Practical Functional Programming</h1>
+                        <p class="muted small">Published by
+                            <a href="#">Steven Heidel</a> on 29 Apr 2017</p>
+                        <p>The following is reformatted from a presentation I gave at LinkedIn last year. The presentation attempted
+                            to explain functional programming without using concepts like “monads” or “immutability” or “side
+                            effects”. Instead it focuses on how thinking about composition can make you a better programmer,
+                            regardless of what language you use.</p>
+                        <p class="small muted tags">
+                            <a href="#">#hashtags</a>
+                            <a href="#">#events</a>
+                            <a href="#">#programming</a>
+                        </p>
+                    </div>
+                    <div class="card__block muted small">
+                        <ul class="separated">
+                            <li>
+                                <a href="#">
+                                    <span>1 like</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>2 comments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>3 views</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card__cover">
+                        <a href="#" routerLink="/posts/123">
+                            <picture class="picture">
+                                <source srcset="assets/cover_2048.webp" media="(min-width: 1024px)" type="image/webp">
+                                <source srcset="assets/cover_2048.jpg" media="(min-width: 1024px)" type="image/jpeg">
+                                <source srcset="assets/cover_1024.webp 1x, assets/cover_2048.webp 2x" media="(min-width: 512px)" type="image/webp">
+                                <source srcset="assets/cover_1024.jpg 1x, assets/cover_2048.jpg 2x" media="(min-width: 512px)" type="image/jpeg">
+                                <source srcset="assets/cover_512.webp 2x, assets/cover_1024.webp 2x" type="image/webp">
+                                <source srcset="assets/cover_512.jpg 2x, assets/cover_1024.jpg 2x" type="image/jpeg">
+                                <img src="assets/cover_1024.jpg" alt="cover">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="card__block">
+                        <h1 class="h2">The Bewildering Experience of PC Building</h1>
+                        <p class="muted small">Published by
+                            <a href="#">Joe Doe</a> on 20 Apr 2017</p>
+                        <p>I got my first IBM-compatible PC thanks to my generous uncle back in 1992. I was just an incipient
+                            teenager at the time, but I had some coding under my belt already thanks to the Commodore 64
+                            that my dad let me co-opt a few years prior. Words cannot express the excitement I had at getting
+                            that 386SX with its reasonably peppy 25MHz Turbo processor, 2MB of RAM, and as I recall, a 40MB
+                            hard drive. Yes, I didn’t type those wrong — all Mega, no Giga.</p>
+                        <p class="small muted tags">
+                            <a href="#">#hashtags</a>
+                            <a href="#">#events</a>
+                            <a href="#">#programming</a>
+                        </p>
+                    </div>
+                    <div class="card__block muted small">
+                        <ul class="separated">
+                            <li>
+                                <a href="#">
+                                    <span>1 like</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>2 comments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>3 views</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <p>
+                    <button class="btn btn--primary btn--block">Load more ...</button>
+                </p>
+            </div>
+            <div class="layout__aside">
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Events</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media media--conf">
+                            <div class="media__date">
+                                <strong>11</strong>
+                                <span>Dets</span>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">UX Tartu</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>SPARK</span>
+                                        </li>
+                                        <li>
+                                            <span>Tartu</span>
+                                        </li>
+                                        <li>
+                                            <span class="text-danger">Tomorrow</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media media--inner">
+                            <div class="media__date">
+                                <strong>20</strong>
+                                <span>Dets</span>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Christmas Party</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>Kontor</span>
+                                        </li>
+                                        <li>
+                                            <span>Tartu</span>
+                                        </li>
+                                        <li>
+                                            <span class="text-success">Going</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media media--conf">
+                            <div class="media__date">
+                                <strong>9</strong>
+                                <span>Sept</span>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Refresh 2018</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>Kultuurikatel</span>
+                                        </li>
+                                        <li>
+                                            <span>Tallinn</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Birthdays</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Steven Heidel</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>12 November</span>
+                                        </li>
+                                        <li>
+                                            <span class="text-danger">Tomorrow</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/87.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Eva Salomon</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>18 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Sarah Goldstein</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>21 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Newcomers</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Joe Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>10 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+                                    <img src="https://randomuser.me/api/portraits/women/40.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Jane Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>1 November</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__aside">
+                                <div class="picture picture--circle">
+
+                                </div>
+                            </div>
+                            <div class="media__main">
+                                <h1 class="h6">Jane Doe</h4>
+                                    <ul class="muted small separated">
+                                        <li>
+                                            <span>21 September</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="section__header">
+                        <h1 class="h4 section__heading">Latest comments</h1>
+                    </div>
+                    <div class="section__block">
+                        <section class="media">
+                            <div class="media__main">
+                                <h1 class="h5">Practical Functional Programming</h1>
+                                <div class="comment small">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur
+                                        ...</p>
+                                    <ul class="separated muted small mt-0">
+                                        <li>3 november</li>
+                                        <li>Joe Doe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="media">
+                            <div class="media__main">
+                                <h1 class="h5">The Bewildering Experience of PC Building</h1>
+                                <div class="comment small">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur
+                                        ...</p>
+                                    <ul class="separated muted small mt-0">
+                                        <li>3 november</li>
+                                        <li>Joe Doe</li>
+                                    </ul>
+                                </div>
+                                <div class="comment small">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sequi consectetur
+                                        ...</p>
+                                    <ul class="separated muted small mt-0">
+                                        <li>3 november</li>
+                                        <li>Joe Doe</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="app__footer text-center small">
+        <p>Iglu OY</p>
+    </div>
+</body>
+
+</html>
